@@ -21,4 +21,13 @@ func main() {
 	fmt.Printf(
 		"Sum is: %d\n", module01.Sum([]int{3, 3, 4, 3}),
 	)
+
+	//Reverse
+	fmt.Printf(
+		"Reversed: %s\n", module01.Reverse("cat"),
+	)
+
+	fmt.Printf(
+		"Reversed: %s\n", module01.Reverse("alphabet"),
+	)
 }
