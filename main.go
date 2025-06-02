@@ -30,4 +30,11 @@ func main() {
 	fmt.Printf(
 		"Reversed: %s\n", module01.Reverse("alphabet"),
 	)
+
+	//Fizz Buzz
+	// module01.FizzBuzz(1)
+
+	// module01.FizzBuzz(5)
+
+	module01.FizzBuzz(15)
 }
